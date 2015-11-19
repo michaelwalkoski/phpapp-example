@@ -176,7 +176,7 @@ Select the repository you forked from [Step 8](#step-8-get-the-deployment-instru
 
 Choose the **master** branch.
 
-Two environment will be automatically created for you. Click the **All Done** button to continue.
+Two environments will be automatically created for you. Click the **All Done** button to continue.
 
 At this point you will pause the *new application workflow* and edit the deployment instructions in a new tab before continuing.
 
@@ -194,7 +194,7 @@ johndoe/phpapp:
 ```
 ### Step 11. Build the Application
 
-Go back to the Distelli WebUI and click the **I've pushed my Repo** button.
+Go back to the Distelli WebUI tab that you left and click the **I've pushed my Repo** button.
 
 Click the **Looks good. Start Build!** button.
 
