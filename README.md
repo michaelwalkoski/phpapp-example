@@ -20,4 +20,32 @@ In your web browser navigate to <a href="https://aws.amazon.com/" target="_blank
 
 <a href="http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/get-set-up-for-amazon-ec2.html#create-a-vpc" target="_blank">Create a Virtual Private Cloud (VPC)</a>.
 
-<a href="http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/get-set-up-for-amazon-ec2.html#create-a-base-security-group" target="_blank">Create a Key Security Group</a>.
+<a href="http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/get-set-up-for-amazon-ec2.html#create-a-base-security-group" target="_blank">Create a Security Group</a>.
+
+Distelli deploys your application from GitHub to your public Amazon EC2 server and allows you to track changes.
+
+### Step 3. Add a Server
+
+In Distelli, click the Servers link at the top of the WebUI. Then click the New Server button on the top right.
+
+Click Launch an EC2 Instance
+
+Enter your EC2 Credentials from when you created your AWS username and click update credentials.
+
+Click New EC2 Configuration.
+
+Select your AWS Region that you used to create your credentials.
+
+In Select Instance type, choose the Memory Optimized Tab, and then click t2.micro. This option is free for the first year.
+
+Click Ubuntu under Select OS Image.
+
+Select the default VPC server under Configure Virtual Private Cloud.
+
+Select the first option under Configure Subnet.
+
+Select the key pair you created for your username earlier.
+
+Choose the Default security group.
+
+Click launch! 
