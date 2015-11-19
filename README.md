@@ -225,3 +225,9 @@ The form method post returns the data that users enter in the subsequent text bo
 <input type='text' name='value1' value="$value1"/> creates a text box for users to enter information.
 <input type='submit' value='Calculate'/> creates a submit button.
 ```
+The last three lines return the data from the submitted forum. Do you notice variable $answer is being printed using the echo command?
+```
+<br/>
+The answer is:<input type="text" value="<?php echo round($answer)?>">
+</form>
+```
