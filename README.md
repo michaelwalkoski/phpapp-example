@@ -154,6 +154,8 @@ https://github.com/distelli/phpapp-example
 
 Fork this repository to your GitHub account.
 
+![alt text](http://www.michaelwalkoski.com/distellitutorial/15.jpg)
+
 ### Step 9. Create the Application in Distelli
 
 In Distelli click the **Applications** link at the top of the WebUI. Then click the **New App** button on the top right.
