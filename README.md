@@ -172,9 +172,15 @@ After entering a name, click the **Use GitHub** button.
 
 Select the repository you forked from [Step 8](#step-8-get-the-deployment-instructions) above.
 
+![alt text](http://www.michaelwalkoski.com/distellitutorial/17.jpg)
+
 Choose the **master** branch.
 
+![alt text](http://www.michaelwalkoski.com/distellitutorial/18.jpg)
+
 Two environments will be automatically created for you. Click the **All Done** button to continue.
+
+![alt text](http://www.michaelwalkoski.com/distellitutorial/19.jpg)
 
 At this point you will pause the *new application workflow* and edit the deployment instructions in a new tab before continuing.
 
