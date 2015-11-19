@@ -219,5 +219,8 @@ The form method post returns the data that users enter in the subsequent text bo
 <input type='submit' value='Calculate'/>
 ```
 ```
-<strong></strong> bolds text, <br/> creates a line break, and <input type='text' name='value1' value="$value1"/> creates a text box for users to enter information. <input type='submit' value='Calculate'/> creates a submit button.
+<strong></strong> bolds text.
+<br/> creates a line break.
+<input type='text' name='value1' value="$value1"/> creates a text box for users to enter information.
+<input type='submit' value='Calculate'/> creates a submit button.
 ```
