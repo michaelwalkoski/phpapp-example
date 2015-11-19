@@ -11,10 +11,16 @@ In your web browser navigate to <a href="https://www.distelli.com/signup" target
 <br>
 
 ### Step 2. Create a free Amazon Web Services (AWS) account to start your own server.
-a.	In a browser navigate to https://aws.amazon.com/ and sign-up for one year of cloud hosting.
 
 In your web browser navigate to <a href="https://aws.amazon.com/" target="_blank">https://aws.amazon.com/</a> and sign-up for your free AWS account.
 <br>
-b.	http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/get-set-up-for-amazon-ec2.html
+<a href="http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/get-set-up-for-amazon-ec2.html#create-an-iam-user" target="_blank">Create an IAM User</a>.
+<br>
+<a href="http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/get-set-up-for-amazon-ec2.html#create-a-key-pair" target="_blank">Create a Key Pair</a>.
+<br>
+<a href="http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/get-set-up-for-amazon-ec2.html#create-a-vpc" target="_blank">Create a Virtual Private Cloud (VPC)</a>.
+<br>
+<a href="http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/get-set-up-for-amazon-ec2.html#create-a-base-security-group" target="_blank">Create a Key Security Group</a>.
+<br>
 
 
