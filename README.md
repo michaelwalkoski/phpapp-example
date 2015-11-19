@@ -84,7 +84,7 @@ The elastic IP address you just associated will be your permanent public address
 
 ### Step 5. Install an SSH Client on Your Computer
 
-Think of this application like you would the file manager on your computer. You will be able to edit, delete, or rename files, and in our next step install the Distelli Agent.
+Think of this application like you would the file manager on your computer. You will be able to edit, delete, or rename files, and in our next step install the Distelli Agent. However, a SSH client relies on the command line interface, or text, to execute changes.
 
 **Windows**: <a href="http://www.chiark.greenend.org.uk/~sgtatham/putty/" target="_blank">Install PuTTy</a>.
 
@@ -109,8 +109,42 @@ The wget command downloads the file and agent install installs it on on the serv
 ```
 wget -qO- https://www.distelli.com/download/client | sh
 ```
+When the process has completed, enter the following command.
 ```
 sudo /usr/local/bin/distelli agent install
 ```
 
 You will be prompted for your Distelli email and password. Once you submit, your EC2 instance will be setup for use with Distelli.
+
+### Step 7.	Create a free GitHub Account
+
+Navigate to <a href="https://github.com/" target="_blank">https://github.com/</a> and sign up for your free GitHub account.
+
+### Step 8. Get the Deployment Instructions
+
+The Distelli deployment instructions are in a distelli-manifest.yml file.  This file and an nginx configuration file are available in a distelli public GitHub repository here.
+```
+https://github.com/distelli/phpapp-example
+```
+
+Fork this repository to your GitHub account.
+
+### Step 9. Create the Application in Distelli
+
+In Distelli click the **Applications** link at the top of the WebUI. Then click the **New App** button on the top right.
+
+Give your application a name. Use the name **PHPApp**. This name has no bearing on your PHP application.
+
+> The application name must match the application name in the distelli-manifest.yml file.
+
+After entering a name, click the **Use GitHub** button.
+
+> If the button instead says **Connect GitHub** click that and connect your GitHub account.
+
+Select the repository you forked from [Step 8] above.
+
+Choose the **master** branch.
+
+Two environment will be automatically created for you. Click the **All Done** button to continue.
+
+At this point you will pause the *new application workflow* and edit the deployment instructions before continuing.
