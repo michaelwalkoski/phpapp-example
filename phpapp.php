@@ -5,7 +5,7 @@ $answer = $value1 * $value2;
 
 echo <<<_END
 <form method='post' action='newapp.php'>
-<strong>Calculate</strong>&nbsp;<input type='text' name='value1' value="$value1"/>&nbsp;*&nbsp;<input type='text' name='value2' value="$value2"/><br/>
+<strong>Calculate</strong><br/><input type='text' name='value1' value="$value1"/>&nbsp;*&nbsp;<input type='text' name='value2' value="$value2"/><br/>
 <input type='submit' value='Calculate'/>
 _END;
 ?>
