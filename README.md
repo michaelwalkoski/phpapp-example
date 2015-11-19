@@ -214,12 +214,6 @@ The echo command on line 6 will print the following text. A very basic PHP scrip
 
 The form method post returns the data that users enter in the subsequent text boxes and returns it when they click the submit buttom.
 ```
-<form method='post' action='phpapp.php'>
-<strong>Calculate</strong><br/>
-<input type='text' name='value1' value="$value1"/>&nbsp;*&nbsp;<input type='text' name='value2' value="$value2"/><br/>
-<input type='submit' value='Calculate'/>
-```
-```
 <strong></strong> bolds text.
 <br/> creates a line break.
 <input type='text' name='value1' value="$value1"/> creates a text box for users to enter information.
