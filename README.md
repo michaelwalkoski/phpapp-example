@@ -55,9 +55,11 @@ Click **Ubuntu** under Select OS Image.
 
 Select the default VPC server under Configure Virtual Private Cloud.
 
-![alt text](http://www.michaelwalkoski.com/distellitutorial/8.jpg)
+![alt text](http://www.michaelwalkoski.com/distellitutorial/7.jpg)
 
 Select the first option under Configure Subnet.
+
+![alt text](http://www.michaelwalkoski.com/distellitutorial/8.jpg)
 
 Select the key pair you created for your username earlier.
 
