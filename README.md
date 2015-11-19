@@ -81,7 +81,9 @@ Click the **Edit** button then **Add Rule**.
 
 Under the Type dropdown box, choose **HTTP**.
 
-Under Source, click **anywhere**.
+Under Source, click **anywhere**. Make sure you also have SSH set to **My IP**.
+
+![alt text](http://www.michaelwalkoski.com/distellitutorial/10.jpg)
 
 **Save**!
 
