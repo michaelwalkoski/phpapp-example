@@ -9,7 +9,7 @@ The difference between PHP and other languages like JavaScript is where they are
 
 In your web browser navigate to <a href="https://www.distelli.com/signup" target="_blank">https://www.distelli.com/signup</a> and sign-up for your free Distelli account.
 
-![alt text](http://www.michaelwalkoski.com/distellitutorial/1.jpg)
+![alt text](http://www.michaelwalkoski.com/distellitutorial/d1.jpg)
 
 ### Step 2. Create a Free Account on Amazon Web Services (AWS) to Start a Server
 
@@ -31,41 +31,41 @@ In this step we will create our virtual server, or known from now on as an insta
 
 In Distelli, click the **Servers** link at the top of the WebUI. Then click the green **New Server** button on the top right.
 
-![alt text](http://www.michaelwalkoski.com/distellitutorial/2.jpg)
+![alt text](http://www.michaelwalkoski.com/distellitutorial/d2.jpg)
 
 Click **Launch an EC2 Instance**.
 
-![alt text](http://www.michaelwalkoski.com/distellitutorial/3.jpg)
+![alt text](http://www.michaelwalkoski.com/distellitutorial/d3.jpg)
 
 Enter the EC2 Credentials you received when you created your AWS username and click **Update Credentials**.
 
-![alt text](http://www.michaelwalkoski.com/distellitutorial/4.jpg)
+![alt text](http://www.michaelwalkoski.com/distellitutorial/d4.jpg)
 
 Click **New EC2 Configuration**.
 
 Select the AWS Region that you used to create your credentials.
 
-![alt text](http://www.michaelwalkoski.com/distellitutorial/5.jpg)
+![alt text](http://www.michaelwalkoski.com/distellitutorial/d5.jpg)
 
 In Select Instance type, choose the **Memory Optimized** Tab, and then click **t2.micro**. This option is free for the first year.
 
-![alt text](http://www.michaelwalkoski.com/distellitutorial/6.jpg)
+![alt text](http://www.michaelwalkoski.com/distellitutorial/d6.jpg)
 
 Click **Ubuntu** under Select OS Image.
 
-![alt text](http://www.michaelwalkoski.com/distellitutorial/7.jpg)
+![alt text](http://www.michaelwalkoski.com/distellitutorial/d7.jpg)
 
 Select the default VPC server under Configure Virtual Private Cloud.
 
 Select the first option under Configure Subnet.
 
-![alt text](http://www.michaelwalkoski.com/distellitutorial/8.jpg)
+![alt text](http://www.michaelwalkoski.com/distellitutorial/d8.jpg)
 
 Select the key pair you created for your username earlier.
 
 Choose the Default security group.
 
-![alt text](http://www.michaelwalkoski.com/distellitutorial/9.jpg)
+![alt text](http://www.michaelwalkoski.com/distellitutorial/d9.jpg)
 
 Click **launch**!
 
@@ -83,7 +83,7 @@ Under the Type dropdown box, choose **HTTP**.
 
 Under Source, click **anywhere**. Make sure you also have SSH set to **My IP**.
 
-![alt text](http://www.michaelwalkoski.com/distellitutorial/10.jpg)
+![alt text](http://www.michaelwalkoski.com/distellitutorial/d10.jpg)
 
 **Save**!
 
@@ -97,7 +97,7 @@ Then click the Actions dropdown to its right and select **Associate Address**.
 
 In the popup, select Search Instance ID or Name Tag text box and click the running instance.
 
-![alt text](http://www.michaelwalkoski.com/distellitutorial/11.jpg)
+![alt text](http://www.michaelwalkoski.com/distellitutorial/d11.jpg)
 
 Click **Associate**.
 
@@ -123,7 +123,7 @@ Here is mine as an example
 ```
 ssh -i "/Users/Home/Downloads/michaelwalkoski-key-pair.pem" ubuntu@52.8.156.211
 ```
-![alt text](http://www.michaelwalkoski.com/distellitutorial/12.jpg)
+![alt text](http://www.michaelwalkoski.com/distellitutorial/d12.jpg)
 
 ### Step 6. Install Distelli Agent
 
@@ -131,13 +131,13 @@ The wget command downloads the file and agent install installs it on on the serv
 ```
 wget -qO- https://www.distelli.com/download/client | sh
 ```
-![alt text](http://www.michaelwalkoski.com/distellitutorial/13.jpg)
+![alt text](http://www.michaelwalkoski.com/distellitutorial/d13.jpg)
 
 When the process has completed, enter the following command.
 ```
 sudo /usr/local/bin/distelli agent install
 ```
-![alt text](http://www.michaelwalkoski.com/distellitutorial/14.jpg)
+![alt text](http://www.michaelwalkoski.com/distellitutorial/d14.jpg)
 
 Your EC2 instance is now setup for use with Distelli.
 
@@ -154,7 +154,7 @@ https://github.com/distelli/phpapp-example
 
 Fork this repository to your GitHub account.
 
-![alt text](http://www.michaelwalkoski.com/distellitutorial/15.jpg)
+![alt text](http://www.michaelwalkoski.com/distellitutorial/d15.jpg)
 
 ### Step 9. Create the Application in Distelli
 
@@ -164,7 +164,7 @@ Give your application a name. Use the name **PHPApp**. This name has no bearing 
 
 > The application name must match the application name in the distelli-manifest.yml file.
 
-![alt text](http://www.michaelwalkoski.com/distellitutorial/16.jpg)
+![alt text](http://www.michaelwalkoski.com/distellitutorial/d16.jpg)
 
 After entering a name, click the **Use GitHub** button.
 
@@ -172,11 +172,11 @@ After entering a name, click the **Use GitHub** button.
 
 Select the repository you forked from [Step 8](#step-8-get-the-deployment-instructions) above.
 
-![alt text](http://www.michaelwalkoski.com/distellitutorial/17.jpg)
+![alt text](http://www.michaelwalkoski.com/distellitutorial/d17.jpg)
 
 Choose the **master** branch.
 
-![alt text](http://www.michaelwalkoski.com/distellitutorial/18.jpg)
+![alt text](http://www.michaelwalkoski.com/distellitutorial/d18.jpg)
 
 Two environments will be automatically created for you. Click the **All Done** button to continue.
 
@@ -200,7 +200,7 @@ Go back to the Distelli WebUI tab that you left and click the **I've pushed my R
 
 Click the **Looks good. Start Build!** button.
 
-![alt text](http://www.michaelwalkoski.com/distellitutorial/19.jpg)
+![alt text](http://www.michaelwalkoski.com/distellitutorial/d19.jpg)
 
 The build that is kicked off will validate that you have the correct Distelli user name and your application name matches. After a successful build, a software release will be created. For more information on builds see [Viewing Builds](doc:viewing-builds).
 
@@ -208,7 +208,7 @@ If you are not on the builds list page, click the **Builds** button at the top o
 
 Your successful build will be at the top of the list.
 
-![alt text](http://www.michaelwalkoski.com/distellitutorial/20.jpg)
+![alt text](http://www.michaelwalkoski.com/distellitutorial/d20.jpg)
 
 Click the **New Deployment** button at the top right to begin a deployment
 
@@ -216,27 +216,27 @@ Click the **New Deployment** button at the top right to begin a deployment
 
 In the new deployment wokflow step 1, click **Deploy a Release**.
 
-![alt text](http://www.michaelwalkoski.com/distellitutorial/21.jpg)
+![alt text](http://www.michaelwalkoski.com/distellitutorial/d21.jpg)
 
 Select the application you wish to deploy.
 
 Select the release you wish to deploy. You should only have the one release created from the successful build.
 
-![alt text](http://www.michaelwalkoski.com/distellitutorial/22.jpg)
+![alt text](http://www.michaelwalkoski.com/distellitutorial/d22.jpg)
 
 Select the **-prod** environment. If you have been following along with the same application name (PHPApp) the environment will be named **PHPApp-prod**, select that.
 
-![alt text](http://www.michaelwalkoski.com/distellitutorial/23.jpg)
+![alt text](http://www.michaelwalkoski.com/distellitutorial/d23.jpg)
 
 Select the AWS EC2 instance that we setup earlier and click **add server**.
 
-![alt text](http://www.michaelwalkoski.com/distellitutorial/24.jpg)
+![alt text](http://www.michaelwalkoski.com/distellitutorial/d24.jpg)
 
 Click **Start Deployment**.
 
-![alt text](http://www.michaelwalkoski.com/distellitutorial/25.jpg)
+![alt text](http://www.michaelwalkoski.com/distellitutorial/d25.jpg)
 
-![alt text](http://www.michaelwalkoski.com/distellitutorial/26.jpg)
+![alt text](http://www.michaelwalkoski.com/distellitutorial/d26.jpg)
 
 ### Step 13. View your PHPApp online
 
