@@ -48,21 +48,21 @@ Select the key pair you created for your username earlier.
 
 Choose the Default security group.
 
-Click launch!
+Click **launch**!
 
 ### Step 4. Make the Server Publicly Accessible
 
-Sign in to <a href="https://aws.amazon.com/" target="_blank">AWS</a>, click EC2 near the top left.
+Sign in to <a href="https://aws.amazon.com/" target="_blank">AWS</a>, click **EC2** near the top left.
 
-Select Security Groups under Network & Security in the left pane.
+Select **Security Groups** under Network & Security in the left pane.
 
-There will be four tabs near the bottom. Select inbound.
+There will be four tabs near the bottom. Select **inbound**.
 
-Click the Edit button then Add Rule.
+Click the **Edit** button then **Add Rule**.
 
-Under the Type dropdown box, choose HTTP.
+Under the Type dropdown box, choose **HTTP**.
 
-Under Source, click anywhere.
+Under Source, click **anywhere**.
 
-Save!
+**Save**!
 
