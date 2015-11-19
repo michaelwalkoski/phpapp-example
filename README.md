@@ -236,7 +236,7 @@ The answer is:<input type="text" value="<?php echo round($answer)?>">
 $chocolatechipprice = 3;
 $macadamianutprice = 4;
 
-# Cookie wuantities are being determined by user input.
+# Cookie quantities are being determined by user input.
 if (isset($_POST['chocolatechipqty'])) $chocolatechipqty = $_POST['chocolatechipqty'];
 if (isset($_POST['macadamianutqty'])) $macadamianutqty = $_POST['macadamianutqty'];
 
