@@ -1,15 +1,20 @@
 <?php
-if (isset($_POST['value1'])) $value1 = $_POST['value1'];
-if (isset($_POST['value2'])) $value2 = $_POST['value2'];
-$answer = $value1 * $value2;
-
+$chocolatechipprice = 3;
+$macadamianutprice = 4;
+if (isset($_POST['qtychocolatechip'])) $qtychocolatechip = $_POST['qtychocolatechip'];
+if (isset($_POST['qtymacadamianut'])) $qtymacadamianut = $_POST['qtymacadamianut'];
+$chocolatechiptotal = $qtychocolatechip * $qtychocolatechip;
+$macadamianuttotal = $macadamianutprice * $qtychocolatechip;
+$total = $chocolatechiptotal + $macadamianuttotal;
 echo <<<_END
 <form method='post' action='phpapp.php'>
-<strong>Calculate</strong><br/><input type='text' name='value1' value="$value1"/>&nbsp;*&nbsp;<input type='text' name='value2' value="$value2"/><br/>
+<strong>Calculate Your Cookie Order</strong><br/>
+Chocolate Chip Cookies:&nbsp;<input type='text' name='qtychocolatechip' value="$qtychocolatechip"/><br/>
+Macadamia Nut Cookies:&nbsp;<input type='text' name='qtymacadamianut' value="$qtymacadamianut"/><br/>
 <input type='submit' value='Calculate'/>
 _END;
 ?>
 
 <br/>
-The answer is:<input type="text" value="<?php echo round($answer)?>">
+Your total is:&nbsp;$<input type="text" value="<?php echo round($total)?>">
 </form>
