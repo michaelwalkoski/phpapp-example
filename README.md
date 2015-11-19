@@ -26,7 +26,7 @@ Distelli deploys your application from GitHub to your public Amazon EC2 server a
 
 ### Step 3. Add a Server
 
-In this stop we will create our virtual server, from now on known as an instance.
+In this step we will create our virtual server, or known from now on as an instance.
 
 In Distelli, click the **Servers** link at the top of the WebUI. Then click the **New Server** button on the top right.
 
