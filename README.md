@@ -193,4 +193,11 @@ Navigate to http://your-elastic-ip/phpapp.php
 
 You will now see a simple multiplication calculator. Try different numbers to see how the app behaves.
 
-### Step 14. Modify the App to Total a Cookie Order.
+### Step 14. Modify the App to Total a Cookie Order
+
+Open the phpapp.php file in your repository. We'll go over what the lines mean.
+
+```
+<?php ?>
+```
+These are called opening and closing tags. When the server is parsing the file, it will interpret the PHP code between them.
