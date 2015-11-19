@@ -86,6 +86,14 @@ The elastic IP address you just associated will be your permanent public address
 
 Think of this application like you would the file manager on your computer. You will be able to edit, delete, or rename files, and in our next step install the Distelli Agent.
 
-**Windows**: <a href="http://www.chiark.greenend.org.uk/~sgtatham/putty/" target="_blank">Install putty</a>.
+**Windows**: <a href="http://www.chiark.greenend.org.uk/~sgtatham/putty/" target="_blank">Install PuTTy</a>.
+<a href="https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/putty.html?console_help=true" target="_blank">Connecting to Your Linux Instance from Windows Using PuTTY</a>
 
-**Mac**: Open Terminal from Applications > Utilities > Terminal
+**Mac**: Open Terminal from Applications > Utilities > Terminal.app
+Open Terminal. From the prompt, you’ll enter the command,
+ssh -i "folder-of-key-pair/your-key-pair-name.pem" ubuntu@your-elastic-ip-address
+
+Here is mine as an example
+
+ssh -i "/Users/Home/Downloads/michaelwalkoski-key-pair.pem" ubuntu@52.8.156.211
+
