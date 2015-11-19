@@ -4,7 +4,7 @@ if (isset($_POST['value2'])) $value2 = $_POST['value2'];
 $answer = $value1 * $value2;
 
 echo <<<_END
-<form method='post' action='newapp.php'>
+<form method='post' action='phpapp.php'>
 <strong>Calculate</strong><br/><input type='text' name='value1' value="$value1"/>&nbsp;*&nbsp;<input type='text' name='value2' value="$value2"/><br/>
 <input type='submit' value='Calculate'/>
 _END;
