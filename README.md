@@ -116,7 +116,7 @@ sudo /usr/local/bin/distelli agent install
 
 You will be prompted for your Distelli email and password. Once you submit, your EC2 instance will be setup for use with Distelli.
 
-### Step 7.	Create a free GitHub Account
+### Step 7.	Create a Free GitHub Account
 
 Navigate to <a href="https://github.com/" target="_blank">https://github.com/</a> and sign up for your free GitHub account.
 
@@ -227,7 +227,7 @@ The answer is:<input type="text" value="<?php echo round($answer)?>">
 ```
 ### Step 15. Modify the App to Total a Cookie Order
 
-Copy and paste the following text into the phpapp.php file in your repository. Comments above each change will explain how they affected the app. We will then deploy the changed app.
+Copy and paste the following text into the phpapp.php file in your repository. Comments above each change will explain how they affected the app. We will then deploy the updated app.
 ```
 <?php
 # Comments behind a hashtag are not parsed by the server.
