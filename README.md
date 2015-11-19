@@ -164,17 +164,21 @@ Give your application a name. Use the name **PHPApp**. This name has no bearing 
 
 > The application name must match the application name in the distelli-manifest.yml file.
 
+![alt text](http://www.michaelwalkoski.com/distellitutorial/16.jpg)
+
 After entering a name, click the **Use GitHub** button.
 
 > If the button instead says **Connect GitHub** click that and connect your GitHub account.
 
 Select the repository you forked from [Step 8](#step-8-get-the-deployment-instructions) above.
 
+![alt text](http://www.michaelwalkoski.com/distellitutorial/17.jpg)
+
 Choose the **master** branch.
 
 Two environment will be automatically created for you. Click the **All Done** button to continue.
 
-At this point you will pause the *new application workflow* and edit the deployment instructions before continuing.
+At this point you will pause the *new application workflow* and edit the deployment instructions in a new tab before continuing.
 
 ### Step 10. Edit the distelli-manifest.yml Instructions
 
