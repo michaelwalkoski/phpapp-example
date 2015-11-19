@@ -141,7 +141,7 @@ After entering a name, click the **Use GitHub** button.
 
 > If the button instead says **Connect GitHub** click that and connect your GitHub account.
 
-Select the repository you forked from [Step 8] above.
+Select the repository you forked from [Step 8](#step-8-get-the-deployment-instructions) above.
 
 Choose the **master** branch.
 
