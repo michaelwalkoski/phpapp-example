@@ -172,8 +172,6 @@ After entering a name, click the **Use GitHub** button.
 
 Select the repository you forked from [Step 8](#step-8-get-the-deployment-instructions) above.
 
-![alt text](http://www.michaelwalkoski.com/distellitutorial/17.jpg)
-
 Choose the **master** branch.
 
 Two environments will be automatically created for you. Click the **All Done** button to continue.
@@ -210,9 +208,15 @@ Click the **New Deployment** button at the top right to begin a deployment
 
 In the new deployment wokflow step 1, click **Deploy a Release**.
 
-Select the application you wish to deploy. 
+![alt text](http://www.michaelwalkoski.com/distellitutorial/17.jpg)
+
+Select the application you wish to deploy.
+
+![alt text](http://www.michaelwalkoski.com/distellitutorial/18.jpg)
 
 Select the release you wish to deploy. You should only have the one release created from the successful build.
+
+![alt text](http://www.michaelwalkoski.com/distellitutorial/19.jpg)
 
 Select the **-prod** environment. If you have been following along with the same application name (PHPApp) the environment will be named **PHPApp-prod**, select that.
 
