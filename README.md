@@ -123,6 +123,7 @@ Here is mine as an example
 ```
 ssh -i "/Users/Home/Downloads/michaelwalkoski-key-pair.pem" ubuntu@52.8.156.211
 ```
+![alt text](http://www.michaelwalkoski.com/distellitutorial/12.jpg)
 
 ### Step 6. Install Distelli Agent
 
@@ -130,12 +131,15 @@ The wget command downloads the file and agent install installs it on on the serv
 ```
 wget -qO- https://www.distelli.com/download/client | sh
 ```
+![alt text](http://www.michaelwalkoski.com/distellitutorial/13.jpg)
+
 When the process has completed, enter the following command.
 ```
 sudo /usr/local/bin/distelli agent install
 ```
+![alt text](http://www.michaelwalkoski.com/distellitutorial/14.jpg)
 
-You will be prompted for your Distelli email and password. Once you submit, your EC2 instance will be setup for use with Distelli.
+Your EC2 instance is now setup for use with Distelli.
 
 ### Step 7.	Create a Free GitHub Account
 
