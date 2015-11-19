@@ -65,6 +65,8 @@ Select the key pair you created for your username earlier.
 
 Choose the Default security group.
 
+![alt text](http://www.michaelwalkoski.com/distellitutorial/9.jpg)
+
 Click **launch**!
 
 ### Step 4. Make the Server Publicly Accessible
