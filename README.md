@@ -322,6 +322,10 @@ Scroll down to your deployed apps. You will find ⊕PHPApp listed.
 
 Click **⊕** then the green button with the rocket icon inside to **Deploy Latest Release**.
 
+![alt text](http://www.michaelwalkoski.com/distellitutorial/d27.jpg)
+
 When the menu appears for a New Deployment, select **Deploy**.
+
+![alt text](http://www.michaelwalkoski.com/distellitutorial/d28.jpg)
 
 You will see the progress of the update. When the deployment is 100%, you can return to http://your-elastic-ip/phpapp.php to see the updated app.
