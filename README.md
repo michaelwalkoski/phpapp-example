@@ -91,9 +91,13 @@ Think of this application like you would the file manager on your computer. You 
 
 **Mac**: Open Terminal from Applications > Utilities > Terminal.app
 Open Terminal. From the prompt, you’ll enter the command,
+```
 ssh -i "folder-of-key-pair/your-key-pair-name.pem" ubuntu@your-elastic-ip-address
+```
 
 Here is mine as an example
 
+```
 ssh -i "/Users/Home/Downloads/michaelwalkoski-key-pair.pem" ubuntu@52.8.156.211
+```
 
