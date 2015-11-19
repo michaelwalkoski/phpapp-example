@@ -8,7 +8,8 @@ The difference between PHP and other languages like JavaScript is where they are
 ### Step 1. Create a Free Account on Distelli
 
 In your web browser navigate to <a href="https://www.distelli.com/signup" target="_blank">https://www.distelli.com/signup</a> and sign-up for your free Distelli account.
-<br>
+
+![alt text](https://www.michaelwalkoski.com/distellituturial/1.jpg)
 
 ### Step 2. Create a Free Account on Amazon Web Services (AWS) to Start a Server
 
