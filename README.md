@@ -1,4 +1,4 @@
-# An Beginner's Guide to Developing PHP Applications with Distelli
+# A Beginner's Guide to Developing PHP Applications with Distelli
 In this tutorial, we are going to learn how to build, test, and deploy a PHP application using Distelli. PHP is one of many languages available, but it’s simplicity and flexibility make it a great place to begin. Many of the concepts you learn in in this tutorial will transfer to other languages and you’ll learn about setting up a website. Distelli also supports Java, Node.js, Phython, and Ruby.
 
 The foundation of web development is the client-server relationship. You are the client when you enter a web address in your browser. The request is sent to the server and a file is returned to your browser to be displayed. The process is similar to opening a file on your computer, but in this case, it’s returned through the browser.
@@ -25,6 +25,8 @@ In your web browser navigate to <a href="https://aws.amazon.com/" target="_blank
 Distelli deploys your application from GitHub to your public Amazon EC2 server and allows you to track changes.
 
 ### Step 3. Add a Server
+
+In this stop we will create our virtual server, from now on known as an instance.
 
 In Distelli, click the **Servers** link at the top of the WebUI. Then click the **New Server** button on the top right.
 
@@ -66,3 +68,16 @@ Under Source, click **anywhere**.
 
 **Save**!
 
+### Step 4. Create a Permanent Address for Your Website
+
+Select **Elastic IPs** underneath Security Groups in the left pane.
+
+Click the **Allocate Address** button near the top left.
+
+Then click the Actions dropdown to its right and select **Associate Address**.
+
+In the popup, select Search Instance ID or Name Tag text box and click the running instance.
+
+Click **Associate Instance**.
+
+The elastic IP address you just associated will be your permanent public address.
