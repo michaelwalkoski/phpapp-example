@@ -1,5 +1,5 @@
 # A Beginner's Guide to Developing PHP Applications with Distelli
-In this tutorial we're going to learn how to build, test, and deploy a PHP application using Distelli. PHP is one of many languages available, but it’s simplicity and flexibility make it a great place to begin. Many of the concepts you learn in in this tutorial will transfer to other languages, as well as the ability to setup a website. Distelli also supports Java, Node.js, Phython, and Ruby so you can experiment once you familiarize yourself.
+In this tutorial we will learn how to build, test, and deploy a PHP application using Distelli. PHP is one of many languages available, but it’s simplicity and flexibility make it a great place to begin. Many of the concepts you'll learn developing PHP are similar to other languages, and since Distelli also supports Java, Node.js, Phython, and Ruby, you can experiment once you're ready. Additionally, we'll setup a GitHub account to store your code and launch a webserver so you can see your project in action.
 
 The foundation of web development is the client-server relationship. You are the client when you enter a web address in your browser. The request is sent to the server and a file is returned to your browser to be displayed. The process is similar to opening a file on your computer, but in this case it’s returned through the browser.
 
