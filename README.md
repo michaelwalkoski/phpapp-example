@@ -99,7 +99,7 @@ In the popup, select Search Instance ID or Name Tag text box and click the runni
 
 ![alt text](http://www.michaelwalkoski.com/distellitutorial/11.jpg)
 
-Click **Associate Instance**.
+Click **Associate**.
 
 The elastic IP address you just associated will be your permanent public address.
 
