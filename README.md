@@ -206,7 +206,9 @@ The build that is kicked off will validate that you have the correct Distelli us
 
 If you are not on the builds list page, click the **Builds** button at the top of the Distelli WebUI.
 
-Your successful build will be at the top of the list. 
+Your successful build will be at the top of the list.
+
+![alt text](http://www.michaelwalkoski.com/distellitutorial/20.jpg)
 
 Click the **New Deployment** button at the top right to begin a deployment
 
@@ -214,23 +216,27 @@ Click the **New Deployment** button at the top right to begin a deployment
 
 In the new deployment wokflow step 1, click **Deploy a Release**.
 
-![alt text](http://www.michaelwalkoski.com/distellitutorial/17.jpg)
+![alt text](http://www.michaelwalkoski.com/distellitutorial/21.jpg)
 
 Select the application you wish to deploy.
 
-![alt text](http://www.michaelwalkoski.com/distellitutorial/18.jpg)
-
 Select the release you wish to deploy. You should only have the one release created from the successful build.
 
-![alt text](http://www.michaelwalkoski.com/distellitutorial/19.jpg)
+![alt text](http://www.michaelwalkoski.com/distellitutorial/22.jpg)
 
 Select the **-prod** environment. If you have been following along with the same application name (PHPApp) the environment will be named **PHPApp-prod**, select that.
 
-![alt text](http://www.michaelwalkoski.com/distellitutorial/20.jpg)
+![alt text](http://www.michaelwalkoski.com/distellitutorial/23.jpg)
 
 Select the AWS EC2 instance that we setup earlier and click **add server**.
 
-![alt text](http://www.michaelwalkoski.com/distellitutorial/21.jpg)
+![alt text](http://www.michaelwalkoski.com/distellitutorial/24.jpg)
+
+Click **Start Deployment**.
+
+![alt text](http://www.michaelwalkoski.com/distellitutorial/25.jpg)
+
+![alt text](http://www.michaelwalkoski.com/distellitutorial/26.jpg)
 
 ### Step 13. View your PHPApp online
 
