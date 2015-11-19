@@ -153,4 +153,35 @@ At this point you will pause the *new application workflow* and edit the deploym
 
 You already have a distelli-manifest.yml file provided in the repository you forked earlier. You must edit this file and commit the edit to your repository.
 
-Edit the distelli-manifest.yml file.
+Edit the distelli-manifest.yml file. Change <SET_ME_DISTELLI_USERNAME> to your Distelli username.
+```
+<SET_ME_DISTELLI_USERNAME>/phpapp:
+```
+For example.
+```
+johndoe/phpapp:
+```
+### Step 11. Build the Application
+
+Go back to the Distelli WebUI and click the **I've pushed my Repo** button.
+
+Click the **Looks good. Start Build!** button.
+
+The build that is kicked off will validate that you have the correct Distelli user name and your application name matches. After a successful build, a software release will be created. For more information on builds see [Viewing Builds](doc:viewing-builds).
+
+If you are not on the builds list page, click the **Builds** button at the top of the Distelli WebUI.
+
+Your successful build will be at the top of the list. 
+
+Click the **New Deployment** button at the top right to begin a deployment
+
+### Step 12. Deploy the Application
+
+In the new deployment wokflow step 1, click **Deploy a Release**.
+
+Select the application you wish to deploy. 
+
+Select the release you wish to deploy. You should only have the one release created from the successful build.
+
+Select the **-prod** environment. If you have been following along with the same application name (PHPApp) the environment will be named **PHPApp-prod**, select that.
+
