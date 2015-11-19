@@ -10,7 +10,7 @@ The difference between PHP and other languages like JavaScript is where they are
 In your web browser navigate to <a href="https://www.distelli.com/signup" target="_blank">https://www.distelli.com/signup</a> and sign-up for your free Distelli account.
 <br>
 
-### Step 2. Create a free Amazon Web Services (AWS) account to start your own server
+### Step 2. Create a Free Account on Amazon Web Services (AWS) to Start a Server
 
 In your web browser navigate to <a href="https://aws.amazon.com/" target="_blank">https://aws.amazon.com/</a> and sign-up for your free AWS account. Then complete the following steps.
 
