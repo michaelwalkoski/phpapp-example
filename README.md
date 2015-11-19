@@ -193,9 +193,9 @@ Navigate to http://your-elastic-ip/phpapp.php
 
 You will now see a simple multiplication calculator. Try different numbers to see how the app behaves.
 
-### Step 14. Modify the App to Total a Cookie Order
+### Step 14. How Does phpapp.php Work?
 
-Open the phpapp.php file in your repository. We'll go over what the lines mean.
+Open the phpapp.php file in your repository. We'll go over each line.
 
 These are called opening and closing tags. When the server is parsing the file, it will interpret the PHP code between them.
 
@@ -231,3 +231,4 @@ The last three lines return the data from the submitted forum. Do you notice var
 The answer is:<input type="text" value="<?php echo round($answer)?>">
 </form>
 ```
+### Step 15. Modify the App to Total a Cookie Order
