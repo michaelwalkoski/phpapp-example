@@ -185,3 +185,12 @@ Select the release you wish to deploy. You should only have the one release crea
 
 Select the **-prod** environment. If you have been following along with the same application name (PHPApp) the environment will be named **PHPApp-prod**, select that.
 
+Select the AWS EC2 instance that we setup earlier and click **add server**.
+
+### Step 13. View your PHPApp online
+
+Navigate to http://your-elastic-ip/phpapp.php
+
+You will now see a simple multiplication calculator. Try different numbers to see how the app behaves.
+
+### Step 14. Modify the App to Total a Cookie Order.
