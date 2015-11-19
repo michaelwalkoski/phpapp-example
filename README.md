@@ -81,3 +81,11 @@ In the popup, select Search Instance ID or Name Tag text box and click the runni
 Click **Associate Instance**.
 
 The elastic IP address you just associated will be your permanent public address.
+
+### Step 5. Install an SSH Client on Your Computer
+
+Think of this application like you would the file manager on your computer. You will be able to edit, delete, or rename files, and in our next step install the Distelli Agent.
+
+**Windows**: <a href="http://www.chiark.greenend.org.uk/~sgtatham/putty/" target="_blank">Install putty</a>.
+
+**Mac**: Open Terminal from Applications > Utilities > Terminal
