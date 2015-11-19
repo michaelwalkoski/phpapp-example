@@ -12,7 +12,7 @@ In your web browser navigate to <a href="https://www.distelli.com/signup" target
 
 ### Step 2. Create a free Amazon Web Services (AWS) account to start your own server.
 
-In your web browser navigate to <a href="https://aws.amazon.com/" target="_blank">https://aws.amazon.com/</a> and sign-up for your free AWS account. Then complete the following step.
+In your web browser navigate to <a href="https://aws.amazon.com/" target="_blank">https://aws.amazon.com/</a> and sign-up for your free AWS account. Then complete the following steps.
 
 <a href="http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/get-set-up-for-amazon-ec2.html#create-an-iam-user" target="_blank">Create an IAM User</a>.
 
@@ -26,19 +26,19 @@ Distelli deploys your application from GitHub to your public Amazon EC2 server a
 
 ### Step 3. Add a Server
 
-In Distelli, click the Servers link at the top of the WebUI. Then click the New Server button on the top right.
+In Distelli, click the **Servers** link at the top of the WebUI. Then click the **New Server** button on the top right.
 
-Click Launch an EC2 Instance
+Click **Launch an EC2 Instance**.
 
-Enter your EC2 Credentials from when you created your AWS username and click update credentials.
+Enter your EC2 Credentials from when you created your AWS username and click **Update Credentials**.
 
-Click New EC2 Configuration.
+Click **New EC2 Configuration**.
 
-Select your AWS Region that you used to create your credentials.
+Select the AWS Region that you used to create your credentials.
 
-In Select Instance type, choose the Memory Optimized Tab, and then click t2.micro. This option is free for the first year.
+In Select Instance type, choose the **Memory Optimized** Tab, and then click **t2.micro**. This option is free for the first year.
 
-Click Ubuntu under Select OS Image.
+Click **Ubuntu** under Select OS Image.
 
 Select the default VPC server under Configure Virtual Private Cloud.
 
@@ -48,4 +48,21 @@ Select the key pair you created for your username earlier.
 
 Choose the Default security group.
 
-Click launch! 
+Click launch!
+
+### Step 4. Make the Server Publicly Accessible
+
+Sign in to <a href="https://aws.amazon.com/" target="_blank">AWS</a>, click EC2 near the top left.
+
+Select Security Groups under Network & Security in the left pane.
+
+There will be four tabs near the bottom. Select inbound.
+
+Click the Edit button then Add Rule.
+
+Under the Type dropdown box, choose HTTP.
+
+Under Source, click anywhere.
+
+Save!
+
