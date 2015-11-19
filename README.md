@@ -53,8 +53,6 @@ In Select Instance type, choose the **Memory Optimized** Tab, and then click **t
 
 Click **Ubuntu** under Select OS Image.
 
-![alt text](http://www.michaelwalkoski.com/distellitutorial/7.jpg)
-
 Select the default VPC server under Configure Virtual Private Cloud.
 
 ![alt text](http://www.michaelwalkoski.com/distellitutorial/8.jpg)
