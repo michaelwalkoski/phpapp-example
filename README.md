@@ -5,5 +5,16 @@ The foundation of web development is the client-server relationship. You are the
 
 The difference between PHP and other languages like JavaScript is where they are executed. PHP applications are run on the server before being sent to your browser, while JavaScript is run on your computer. We call these server-side and client-side languages. Web programs can use both client and server languages, and with databases and other technologies, you can create powerful applications. But don’t worry, we’ll start with a simple calculator application and turn it into an app to calculate the cost of a cookie order.
 
-Step 1. Create a Free Account on Distelli
-In your web browser navigate to https://www.distelli.com/signup and sign-up for your free Distelli account. 
+### Step 1. Create a Free Account on Distelli
+
+In your web browser navigate to <a href="https://www.distelli.com/signup" target="_blank">https://www.distelli.com/signup</a> and sign-up for your free Distelli account.
+<br>
+
+### Step 2. Create a free Amazon Web Services (AWS) account to start your own server.
+a.	In a browser navigate to https://aws.amazon.com/ and sign-up for one year of cloud hosting.
+
+In your web browser navigate to <a href="https://aws.amazon.com/" target="_blank">https://aws.amazon.com/</a> and sign-up for your free AWS account.
+<br>
+b.	http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/get-set-up-for-amazon-ec2.html
+
+
