@@ -35,7 +35,11 @@ In Distelli, click the **Servers** link at the top of the WebUI. Then click the 
 
 Click **Launch an EC2 Instance**.
 
+![alt text](http://www.michaelwalkoski.com/distellitutorial/3.jpg)
+
 Enter your EC2 Credentials from when you created your AWS username and click **Update Credentials**.
+
+![alt text](http://www.michaelwalkoski.com/distellitutorial/4.jpg)
 
 Click **New EC2 Configuration**.
 
