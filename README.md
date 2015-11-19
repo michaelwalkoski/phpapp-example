@@ -90,6 +90,7 @@ Think of this application like you would the file manager on your computer. You 
 <a href="https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/putty.html?console_help=true" target="_blank">Connecting to Your Linux Instance from Windows Using PuTTY</a>
 
 **Mac**: Open Terminal from Applications > Utilities > Terminal.app
+
 Open Terminal. From the prompt, you’ll enter the command,
 ```
 ssh -i "folder-of-key-pair/your-key-pair-name.pem" ubuntu@your-elastic-ip-address
