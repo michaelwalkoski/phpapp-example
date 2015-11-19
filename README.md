@@ -180,8 +180,6 @@ Choose the **master** branch.
 
 Two environments will be automatically created for you. Click the **All Done** button to continue.
 
-![alt text](http://www.michaelwalkoski.com/distellitutorial/19.jpg)
-
 At this point you will pause the *new application workflow* and edit the deployment instructions in a new tab before continuing.
 
 ### Step 10. Edit the distelli-manifest.yml Instructions
@@ -201,6 +199,8 @@ johndoe/phpapp:
 Go back to the Distelli WebUI tab that you left and click the **I've pushed my Repo** button.
 
 Click the **Looks good. Start Build!** button.
+
+![alt text](http://www.michaelwalkoski.com/distellitutorial/19.jpg)
 
 The build that is kicked off will validate that you have the correct Distelli user name and your application name matches. After a successful build, a software release will be created. For more information on builds see [Viewing Builds](doc:viewing-builds).
 
