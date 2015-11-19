@@ -197,7 +197,16 @@ You will now see a simple multiplication calculator. Try different numbers to se
 
 Open the phpapp.php file in your repository. We'll go over what the lines mean.
 
+These are called opening and closing tags. When the server is parsing the file, it will interpret the PHP code between them.
+
 ```
 <?php ?>
 ```
-These are called opening and closing tags. When the server is parsing the file, it will interpret the PHP code between them.
+This is a basic if than statement. If there is content in the textbox named value1, then the variable $value1 will take on its value. It's called a variable because its value depends on the content of the text box and will change if you enter a different integer. The following line is creating an additional variable since we are multiplying two numbers.
+```
+if (isset($_POST['value1'])) $value1 = $_POST['value1'];
+```
+Here we create a third variable, the answer. It is executing our intended multiplication.
+```
+$answer = $value1 * $value2;
+```
