@@ -226,6 +226,8 @@ The answer is:<input type="text" value="<?php echo round($answer)?>">
 </form>
 ```
 ### Step 15. Modify the App to Total a Cookie Order
+
+Copy and paste the following text into the phpapp.php file in your repository. Comments above each change will explain how they affected the app. We will then deploy the changed app.
 ```
 <?php
 # Comments behind a hashtag are not parsed by the server.
@@ -263,3 +265,12 @@ _END;
 Your total is:&nbsp;$<input type="text" value="<?php echo round($total)?>">
 </form>
 ```
+Once you have clicked on **Commit Change** at the bottom of the updated phpapp.php file in your repository. Return to the Distelli WebUI.
+
+Scroll down to your deployed apps. You will find ⊕PHPApp listed.
+
+Click **⊕** then the rocket icon inside the green button to **Deploy Latest Release**.
+
+When the menu appears for a New Deployment, select **Deploy**.
+
+You will see the progress of the update. When the deployment is 100%, you can return to http://your-elastic-ip/phpapp.php to see the updated app.
