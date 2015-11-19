@@ -37,19 +37,29 @@ Click **Launch an EC2 Instance**.
 
 ![alt text](http://www.michaelwalkoski.com/distellitutorial/3.jpg)
 
-Enter your EC2 Credentials from when you created your AWS username and click **Update Credentials**.
+Enter the EC2 Credentials you received when you created your AWS username and click **Update Credentials**.
 
 ![alt text](http://www.michaelwalkoski.com/distellitutorial/4.jpg)
 
 Click **New EC2 Configuration**.
 
+![alt text](http://www.michaelwalkoski.com/distellitutorial/5.jpg)
+
 Select the AWS Region that you used to create your credentials.
+
+![alt text](http://www.michaelwalkoski.com/distellitutorial/6.jpg)
 
 In Select Instance type, choose the **Memory Optimized** Tab, and then click **t2.micro**. This option is free for the first year.
 
+![alt text](http://www.michaelwalkoski.com/distellitutorial/7.jpg)
+
 Click **Ubuntu** under Select OS Image.
 
+![alt text](http://www.michaelwalkoski.com/distellitutorial/8.jpg)
+
 Select the default VPC server under Configure Virtual Private Cloud.
+
+![alt text](http://www.michaelwalkoski.com/distellitutorial/9.jpg)
 
 Select the first option under Configure Subnet.
 
