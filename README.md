@@ -269,7 +269,7 @@ Once you have clicked on **Commit Change** at the bottom of the updated phpapp.p
 
 Scroll down to your deployed apps. You will find ⊕PHPApp listed.
 
-Click **⊕** then the rocket icon inside the green button to **Deploy Latest Release**.
+Click **⊕** then the green button with the rocket icon inside to **Deploy Latest Release**.
 
 When the menu appears for a New Deployment, select **Deploy**.
 
