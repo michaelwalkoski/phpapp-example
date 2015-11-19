@@ -9,8 +9,8 @@ $total = $chocolatechiptotal + $macadamianuttotal;
 echo <<<_END
 <form method='post' action='phpapp.php'>
 <strong>Calculate Your Cookie Order</strong><br/>
-Chocolate Chip Cookies:&nbsp;<input type='text' name='chocolatechipqty' value="$chocolatechipqty"/><br/>
-Macadamia Nut Cookies:&nbsp;<input type='text' name='macadamianutqty' value="$macadamianutqty"/><br/>
+Chocolate Chip Cookies ($3 each):&nbsp;<input type='text' name='chocolatechipqty' value="$chocolatechipqty"/><br/>
+Macadamia Nut Cookies ($4 each):&nbsp;<input type='text' name='macadamianutqty' value="$macadamianutqty"/><br/>
 <input type='submit' value='Calculate'/>
 _END;
 ?>
