@@ -148,3 +148,9 @@ Choose the **master** branch.
 Two environment will be automatically created for you. Click the **All Done** button to continue.
 
 At this point you will pause the *new application workflow* and edit the deployment instructions before continuing.
+
+### Step 10. Edit the distelli-manifest.yml Instructions
+
+You already have a distelli-manifest.yml file provided in the repository you forked earlier. You must edit this file and commit the edit to your repository.
+
+Edit the distelli-manifest.yml file.
