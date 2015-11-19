@@ -220,7 +220,11 @@ Select the release you wish to deploy. You should only have the one release crea
 
 Select the **-prod** environment. If you have been following along with the same application name (PHPApp) the environment will be named **PHPApp-prod**, select that.
 
+![alt text](http://www.michaelwalkoski.com/distellitutorial/20.jpg)
+
 Select the AWS EC2 instance that we setup earlier and click **add server**.
+
+![alt text](http://www.michaelwalkoski.com/distellitutorial/21.jpg)
 
 ### Step 13. View your PHPApp online
 
